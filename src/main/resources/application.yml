@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  redis:
+   cluster:
+     nodes: 127.0.0.1:6379,127.0.0.1:6380,127.0.0.1:6381,127.0.0.1:6382,127.0.0.1:6383,127.0.0.1:6384
+     max-redirects: 500
+   database: 1
+   timeout: 3000
